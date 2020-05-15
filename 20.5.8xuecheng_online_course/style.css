@@ -119,7 +119,7 @@ a{
     color: #00a4ff;
 }
 
-.course{
+.banner .course{
     float: right;
     margin-top: 60px;
     width: 230px;
@@ -127,7 +127,7 @@ a{
     background-color: #fff;
 }
 
-.course dt{
+.banner .course dt{
     margin-bottom: 10px;
     height: 48px;
     text-align: center;
@@ -137,29 +137,29 @@ a{
     color: #ffffff;
     background-color: #00a4ff;
 }
-.course dd{
+.banner .course dd{
     padding-top: 14px;
     margin: 0px 20px;
     border-bottom: 1px solid #b7b7b7;
     height: 45px;
 }
-.course dd a{
+.banner .course dd a{
     text-decoration: none;
     font-weight: 800;
     font-size:14px;
     color: black;
 
 }
-.course dd a:hover{
+.banner .course dd a:hover{
     color: #00a4ff;
 }
-.course dd div{
+.banner .course dd div{
     line-height: 24px;
     font-size:12px;
     color: #9e9fa0;
 
 }
-.course .all-course{
+.banner .course .all-course{
     float: left;
     width: 188px;
     height: 38px;
@@ -171,7 +171,7 @@ a{
     font-weight: 800;
     color:#00a4ff;
 }
-.course .all-course:hover{
+.banner .course .all-course:hover{
     background-color: #00a4ff;
     color: #ffffff;
 }
@@ -182,19 +182,43 @@ a{
     padding-top: 8px;
     background-color:#f3f5f7;
 }
-.recommend-bar{
-    
+/*************************** bar recommend -bar style ********************************/
+.recommend-bar{    
     height: 60px;
     background-color: #ffffff;
+    font-size: 16px;
+    box-shadow: 0 1px 2px 2px rgba(0,0,0, 0.1);
 }
+.recommend-bar .header{
+    float: left;
+    color:#00a4ff;
+    margin:0px 35px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.recommend-bar span{
+    margin-top: 22px;
+    float: left;
+    padding-left: 40px;
+    padding-right: 35px;
+    border-left: 1px solid #9e9fa0;
+}
+.recommend-bar .edit{
+    float: right;
+    line-height: 60px;
+    margin-right:25px ;
+    color:#00a4ff;
+
+}
+/*************************** re commend-box style ********************************/
 .recommend-text{
-    padding-bottom: 20px;
+
     height: 42px;
     background-color: #f3f5f7;
 }
 .recommend-text-h4{
     float: left;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 400;
 }
 .recommend-text-link{
@@ -233,9 +257,14 @@ a{
     height:270px;
     background-color: red;
 }
-.recommend-box-area-row2{
-    margin-top:15px;
+.recommend-box-area ul{
+    float: left;
+    list-style: none;
 }
+.recommend-box-area .col2{
+    margin-top: 15px;
+}
+
 
 .intro-text{
     margin-top:40px;
