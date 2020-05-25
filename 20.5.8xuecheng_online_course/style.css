@@ -247,12 +247,21 @@ a{
 }
 
 .recommend-box{
+    position:relative;
     float: left;
     margin-right: 15px;
     width: 228px;
     height:270px;
     background-color: #ffffff;
 }
+
+.recommend-box .hot{
+    position:absolute;
+    right: -4px;
+    top:1px;
+    width: 40px;
+}
+
 .recommend-box-mostleft{
     float: left;
     width: 228px;
